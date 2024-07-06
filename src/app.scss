@@ -1,0 +1,36 @@
+@import "./app.css";
+
+html, body {
+    @apply h-full w-full;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    @apply bg-white text-slate-950 m-0;
+}
+
+a {
+    @apply no-underline text-sky-500;
+
+    &.btn {
+        @apply bg-slate-100 text-slate-950 duration-200 py-2 px-6 rounded block;
+
+        &:hover {
+            @apply bg-slate-200;
+        }
+
+        &.secondary {
+            @apply bg-sky-600 text-white;
+            
+            &:hover {
+                @apply bg-sky-500;
+            }
+        }
+    }
+}
+
+input {
+    @apply text-slate-950 py-2 px-6 rounded border-none;
+    font-family: monospace;
+    font-size: 1rem;
+}
