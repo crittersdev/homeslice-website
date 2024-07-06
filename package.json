@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -23,7 +23,7 @@
     "@steeze-ui/svelte-icon": "^1.5.0",
     "borsh": "^0.7.0",
     "dotenv": "^16.4.5",
-    "homeslice": "git@github.com:crittersdev/homeslice-prototype.git",
+    "homeslice": "file:../homeslice",
     "sass": "^1.77.6"
   }
 }
